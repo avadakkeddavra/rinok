@@ -1,0 +1,248 @@
+<!--https://www.templatemonster.com/ru/demo/58358.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="js/slick-1.6.0/slick/slick.css">
+	<link rel="stylesheet" href="js/slick-1.6.0/slick/slick-theme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+	<link rel="stylesheet" href="assets/font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/remodal/css/remodal.css">
+	<link rel="stylesheet" href="assets/remodal/css/remodal-default-theme.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="remodal" data-remodal-id="modal">
+	  <button data-remodal-action="close" class="remodal-close"></button>
+	  <h4>Написать менеджеру</h4>
+		  <form action="">
+		  	<div class="form-block">
+		  		<input type="text" class="form-control" name="name" placeholder="Имя" id="name">
+		  	</div>
+		  	<div class="form-block">
+		  		<input type="number" class="form-control" name="phone" placeholder="Телефон" id="phone">
+		  	</div>
+		  	<div class="form-block">
+		  		<input type="email" class="form-control" name="email" placeholder="Email" id="email">
+		  	</div>
+		  	<div class="form-block">
+		  		<textarea name="message" id="message" class='form-control'>Ваше сообщение</textarea>
+		  	</div>
+		  	
+		  	<button type="button" data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+	  		<button type="submit" class="remodal-confirm">OK</button>
+		  </form>
+</div>
+
+	<div class="menu">
+		<ul class='list-inline hidden-xs hidden-sm'>
+			<li class="active"><a href="#">Главная</a></li>
+			<li><a href="#">О газете</a></li>
+			<li><a href="#">Акции</a></li>
+			<li><a href="#">Прайс</a></li>
+			<li><a href="#">Статьи</a></li>
+			<li><a href="#">Распостранение</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Наши возможности</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<div class="visible-xs visible-sm row">
+			<div class="col-xs-6 mobile-btn-row">
+				<button id="show_menu"><i class="fa fa-bars"></i></button>
+
+			</div>
+			<ul class='list-unstyled hidden-md hidden-lg mobile-menu'>
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">О газете</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Прайс</a></li>
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Распостранение</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Наши возможности</a></li>
+						<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	<section class="logo_section">
+		<div class="logo_section_block">
+			<img src="img/logo_test.png" alt="" class="img-responsive">
+		</div>
+	</section>
+	<main class='category'>
+		<section class="sales">
+			<div class="container">
+				<h2 class="h_section">Популярные акции</h2>
+				<div class="grid" id="sales_slider">
+					<article>
+						<div class="img" style='background: url(img/sale1.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">Окна</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+						
+					</article>
+					<article>
+						<div class="img" style='background: url(img/sale2.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">КАК СТАТЬ УЧАСТНИКОМ ЗАПОРОЖСКОЙ СТРОИТЕЛЬНОЙ ВЫСТАВКИ ВСЕГО ЗА 990ГРН!</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+					</article>
+					<article>
+						<div class="img" style='background: url(img/sale3.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">Окна</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+					</article>
+					<article>
+						<div class="img" style='background: url(img/sale1.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">Окна</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+						
+					</article>
+					<article>
+						<div class="img" style='background: url(img/sale2.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">КАК СТАТЬ УЧАСТНИКОМ ЗАПОРОЖСКОЙ СТРОИТЕЛЬНОЙ ВЫСТАВКИ ВСЕГО ЗА 990ГРН!</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+					</article>
+					<article>
+						<div class="img" style='background: url(img/sale3.jpg)'></div>
+						<div class="content">
+							<h3 class="h_desc">Окна</h3>
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit hic, doloribus maxime maiores dolor sequi?
+							</div>
+							<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+						</div>
+					</article>
+				</div>
+								
+			</div>
+		</section>
+		<section class="all_sales">
+			<div class="section_content-wrapper container">
+				<h2 class="h_section">Все рубрики акций</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<ul>
+							<li><a href="#all">Показать все</a></li>
+							<li><a href="#">Окна</a></li>
+							<li><a href="#">Как стать участником Запорожской строительной выставки всего за 990грн!</a></li>
+							<li><a href="#">Акция "Ювелирный Мир - 2017"</a></li>
+							<li><a href="#">Акция "Строительство"</a></li>
+							<li><a href="#">Рубрика "Услуги"</a></li>
+							<li><a href="#">Автобизнес Запорожья</a></li>
+                         </ul>
+					</div>
+					<div class="col-sm-6">
+						<ul>
+							<li><a href="#">Акция "Недвижимость"</a></li>
+                 			<li><a href="#">Эффективный пакет "РАБОТА"</a></li>
+                 			<li><a href="#rinok+smm">Рынок SMM</a></li>
+                 			<li><a href="#autovitr">Автовитрина</a></li>
+                 			<li><a href="#districtpaper">Районные газеты</a></li>
+                 			<li><a href="#leasure">Отдых. Туризм</a></li>
+                 			<li><a href="#lanch">Бизнес ланч</a></li>
+                 			<li><a href="#shopping">Shopping</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		
+		<section class="hot_sales">
+			<div class="section_content_container container">
+				<h2 class="h_section">Горящие акции</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<article>
+							<img src="img/sale1.jpg" alt="" class='img-responsive'>
+							<div class="content">
+								<h3 class="h-desc">Окна</h3>
+								<div class="stat">
+									<span class="date"><i class="fa fa-calendar"></i>22 сентябрь</span>
+									<span class="category"><i class="fa fa-pencil"></i>Окна</span>
+								</div>
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione mollitia dignissimos, ad. Nesciunt, provident ducimus?</div>
+								<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+							</div>
+						</article>
+					</div>
+					<div class="col-md-4">
+						<article>
+							<img src="img/sale2.jpg" alt="" class='img-responsive'>
+							<div class="content">
+								<h3 class="h-desc">Окна</h3>
+								<div class="stat">
+									<span class="date"><i class="fa fa-calendar"></i>22 сентябрь</span>
+									<span class="category"><i class="fa fa-pencil"></i>Окна</span>
+								</div>
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione mollitia dignissimos, ad. Nesciunt, provident ducimus?</div>
+								<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+							</div>
+						</article>
+					</div>
+					<div class="col-md-4">
+						<article>
+							<img src="img/sale3.jpg" alt="" class='img-responsive'>
+							<div class="content">
+								<h3 class="h-desc">Окна</h3>
+								<div class="stat">
+									<span class="date"><i class="fa fa-calendar"></i>22 сентябрь</span>
+									<span class="category"><i class="fa fa-pencil"></i>Окна</span>
+								</div>
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione mollitia dignissimos, ad. Nesciunt, provident ducimus?</div>
+								<a href="#" class="btn-template"><span class='fade_left'>Подробнее</span><i class="fa fa-angle-right"></i></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="call_to_action">
+			<div class="container section_content_wrapper">
+				<div class="content">
+					<h2>Хотите узнать больше?</h2>
+					<h3>Напишите и мы свжемся с вами</h3>
+					<a href="#modal" class="btn_action"><span>Написать</span></a>
+				</div>
+			</div>	
+		</section>
+	<footer>
+		<p class="copyright">&copy;Copyright by Everlab-group 2017</p>
+	</footer>
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/slick-1.6.0/slick/slick.js"></script>
+	<script src="assets/remodal/js/remodal.min.js"></script>
+	<script src="js/js.js"></script>
+</body>
+</html>
